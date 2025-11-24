@@ -1,0 +1,94 @@
+/* Font importing */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* Body / Full Layout */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #1b3a2f;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1f1dc;
+}
+
+/* Header Styling */
+.header {
+    width: 100%;
+    background-color: #235a45;
+    color: #f1f1dc;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 22px;
+    font-weight: 500;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+/* Main Content Box */
+.container {
+    background-color: #2e6b50;
+    margin-top: 30px;
+    padding: 25px;
+    width: 70%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* Label Styling */
+label {
+    color: #d0e6d2;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+/* Dropdown Styling */
+select {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #1f4a38;
+    background-color: #3a7b5b;
+    color: #f1f1dc;
+    font-size: 15px;
+}
+
+/* Button Styling */
+button {
+    margin-top: 20px;
+    background-color: #235a45;
+    color: #f1f1dc;
+    padding: 12px;
+    width: 90%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+button:hover {
+    background-color: #1b4f3e;
+}
+
+/* Output Box Styling */
+#output {
+    margin-top: 25px;
+    padding: 20px;
+    background-color: #3a7b5b; 
+    border-left: 5px solid #f1f1dc;
+    border-radius: 10px;
+    text-align: left;
+    color: #f1f1dc;
+}
+
+/* Club Title Inside Output */
+.club-title {
+    text-align: center;
+    color: #d0e6d2; 
+    font-weight: 600;
+    margin-bottom: 10px;
+}
